@@ -1,3 +1,3 @@
 test doc
 
-[`ARCHITECTURE`](ARCHITECTURE) test link
+[`ARCHITECTURE`](ARCHITECTURE.md) test link
