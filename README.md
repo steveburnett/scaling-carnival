@@ -17,7 +17,7 @@
   On Linux, conda adds initialization code to `~/.bashrc`. On macOS, it uses
   `~/.zshrc`. Internally, the `./scripts/setup-conda.sh` script is used.
 
-* These Makefile targets support a number of options, for example:
+These Makefile targets support a number of options, for example:
 
 ```bash
 cd presto/presto-native-execution
