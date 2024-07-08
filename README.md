@@ -1,21 +1,21 @@
 * Clone the Presto repository:
 
-```bash
-git clone https://github.com/prestodb/presto.git
-```
+  ```bash
+  git clone https://github.com/prestodb/presto.git
+  ```
 
 * Run the following (should work on Linux and macOS):
 
-```bash
-cd presto/presto-native-execution
-make submodules
-make conda-install-deps
-make conda-build
-make conda-test
-```
+  ```bash
+  cd presto/presto-native-execution
+  make submodules
+  make conda-install-deps
+  make conda-build
+  make conda-test
+  ```
 
-On Linux, conda adds initialization code to `~/.bashrc`. On macOS, it uses
-`~/.zshrc`. Internally, the `./scripts/setup-conda.sh` script is used.
+  On Linux, conda adds initialization code to `~/.bashrc`. On macOS, it uses
+  `~/.zshrc`. Internally, the `./scripts/setup-conda.sh` script is used.
 
 * These Makefile targets support a number of options, for example:
 
